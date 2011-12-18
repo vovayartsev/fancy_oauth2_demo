@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:vovayartsev/fancy_oauth2.git
-  revision: 7a5988ff19a0dfb35ed157be64a1083405ad710e
+  revision: 37344f9203073a9fcb287738e4e116c66996f7fa
   specs:
     fancy_oauth2 (0.0.1)
       haml-rails
