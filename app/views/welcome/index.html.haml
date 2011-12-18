@@ -1,0 +1,16 @@
+%h1 Google OAuth2 example app
+
+.form-wrapper
+  = form_tag do 
+    .group
+      = label_tag :my_auth, "OAuth2 Authentication:"
+      = fancy_oauth2_tag :my_auth, params[:my_auth]
+    = submit_tag
+
+%h2 Debugging info
+
+%p.gray 
+  Below is the value of 
+  %strong params[:my_auth]
+  = debug(params[:my_auth])
+
