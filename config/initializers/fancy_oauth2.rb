@@ -9,11 +9,12 @@ FancyOauth2.configure do |config|
   config.token_url = '/o/oauth2/token'
 
   # These is added to redirect_uri query string
+  # see http://code.google.com/apis/accounts/docs/OAuth2WebServer.html
   config.default_options = {
     scope: "https://www.google.com/analytics/feeds/",
     redirect_uri: FancyOauth2.callback_url_builder,
     response_type: "code",
-    access_type: 'offline'
+    access_type: 'offline',
+    approval_prompt: "force"
   }
 end
-
