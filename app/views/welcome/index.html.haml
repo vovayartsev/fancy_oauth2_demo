@@ -5,6 +5,7 @@
     .group
       = label_tag :my_auth, "OAuth2 Authentication:"
       = fancy_oauth2_tag :my_auth, params[:my_auth]
+    %p Once you have a green button above, click "Save changes" to send the form data. You'll find the actual token values in Debugging info below.
     = submit_tag
 
 %h2 Debugging info
