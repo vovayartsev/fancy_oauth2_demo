@@ -1,7 +1,7 @@
 fancy_oauth2 demo application
 =============================
 
-This is a demo application for "fancy_oauth2 gem":https://github.com/vovayartsev/fancy_oauth2
+This is a demo application for [fancy_oauth2](https://github.com/vovayartsev/fancy_oauth2) gem
 
 This code is hosted at http://fancy-oauth2-demo.herokuapp.com/
 
